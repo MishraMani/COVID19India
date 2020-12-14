@@ -1,11 +1,11 @@
-.watermark {
+watermark {
   width: auto;
   height: auto;
   display: block;
   position: relative;
 }
 
-.watermark::after {
+watermark::after {
   content: "";
  background:url(https://1.bp.blogspot.com/-HCHzKdLpFHg/XrkjtbJQtLI/AAAAAAAAElY/zT8DNY9ziGA4Obw-6IWFMvV5-gZ4yzlsQCK4BGAsYHg/safe.png);
   opacity: 0.2;
@@ -19,7 +19,7 @@
     height:100px;
 }
 
-.circular--mani {
+circular--mani {
 
   position: fixed;
   bottom: -11.4%;
@@ -33,7 +33,7 @@
   border-radius: 50%;
 }
 
-.circular--mani img {
+circular--mani img {
   width: 100%;
   height: auto;
 
