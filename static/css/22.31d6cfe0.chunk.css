@@ -1,0 +1,42 @@
+.watermark {
+  width: auto;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+.watermark::after {
+  content: "";
+ background:url(https://1.bp.blogspot.com/-HCHzKdLpFHg/XrkjtbJQtLI/AAAAAAAAElY/zT8DNY9ziGA4Obw-6IWFMvV5-gZ4yzlsQCK4BGAsYHg/safe.png);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  width:100px
+    height:100px;
+}
+
+.circular--mani {
+
+  position: fixed;
+  bottom: -11.4%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 25px;
+  width: 130px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--mani img {
+  width: 100%;
+  height: auto;
+
+
+}
+//# sourceMappingURL=22.31d6cfe0.chunk.css.map
