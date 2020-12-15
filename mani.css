@@ -1,0 +1,90 @@
+.bg-mani {
+   /* Fallback color */
+ 
+  position: fixed;
+  bottom: -9%;
+  right: -16%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 25px;
+  width:50px;
+  height:50px;
+
+}
+@media screen and ( max-width: 1024px ) {
+img.responsive { width: 200px; }
+}
+@media screen and ( min-width:1025px ) and ( max-width: 1280px ) {
+img.responsive { width: 300px; }
+}
+@media screen and ( min-width: 1081px ) {
+img.responsive { width: 400px; }
+}
+img.responsive { height: auto; }
+
+
+
+.circular--mani {
+
+  position: fixed;
+  bottom: -6.7%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 25px;
+  width: 70px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--mani img {
+  width: 100%;
+  height: auto;
+
+
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+ 
+ 
+ 
+ 
+ .rotate {   animation: rotation 9s infinite linear; }  @keyframes rotation {   from {     transform: rotate(0deg);   }   to {     transform: rotate(359deg);   } }
